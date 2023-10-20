@@ -36,10 +36,10 @@ python Train.py
 ```
 
 ### Testing
-You should change the path to yours in the `Test.py` file.  Then run the following script to test the trained model:
+You should change the path to yours in the `test.py` file.  Then run the following script to test the trained model:
 
 ```sh
-python Test.py
+python test.py
 ```
 ## Notes
 
