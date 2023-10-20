@@ -21,9 +21,31 @@ In recent years, Transformers have demonstrated significant performance in singl
     <td> <a href="https://pan.baidu.com/disk/main#/index?category=all&path=%2FRain100H_">Download</a> </td>
     <td> <a href="https://pan.baidu.com/disk/main#/index?category=all&path=%2FRain200L ">Download</a> </td>
     <td> <a href="https://pan.baidu.com/disk/main#/index?category=all&path=%2FRain800 ">Download</a> </td>
-    <td> <a href="https://pan.baidu.com/disk/main#/index?category=all&path=%2FRain1400>Download</a> </td>
+    <td> <a href="https://pan.baidu.com/disk/main#/index?category=all&path=%2FRain1400 ">Download</a> </td>
   </tr>
 </tbody>
 </table>
-Here, the ''Thin haze'', ''Moderate haze'' and ''Thick haze'' are included in the Sate 1K dataset. We provide completely paired images, except for RRSD300, as it is a real-world remote sensing haze dataset. 
+Here, we provide complete datasets, including "Rain200H", "Rain200L", "Rain800" and "Rain1400", and they are fully paired images. 
 
+### Training
+The training code will be released after the paper is accepted.
+You should change the path to yours in the `Train.py` file.  Then run the following script to test the trained model:
+
+```sh
+python Train.py
+```
+
+### Testing
+You should change the path to yours in the `Test.py` file.  Then run the following script to test the trained model:
+
+```sh
+python Test.py
+```
+## Notes
+
+1. Send e-mail to dhb2638@163.com if you have critical issues to be addressed.
+2. Please note that there exists the slight gap in the final version due to errors caused by different testing devices and environments.
+
+## Acknowledgment
+
+This code is based on the [Restormer](https://github.com/swz30/Restormer). Thanks for their awesome work.
